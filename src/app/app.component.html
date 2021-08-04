@@ -1,4 +1,5 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<app-game (intervalFired)="onIntveralFired($event)">
+</app-game>
+<app-even *ngFor="let value of evenNumbers" [number]="value">
+  </app-even>
+  <app-odd *ngFor="let value of oddNumbers" [number]="value"></app-odd>
