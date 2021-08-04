@@ -1,0 +1,4 @@
+p {
+  color: red;
+}
+/* Styling Encapsulation where this color is applied only within this module even if the P tag is used in different component*/
